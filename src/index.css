@@ -1,5 +1,11 @@
 body {
   margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+  background-color: #333333;
+  justify-content: center;
+  align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +13,39 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.holder{
+   height: 500px;
+   width: 300px;
+   border-radius: 40px;
+   background-color: rgb(210, 210, 210);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: inset 0 0 20px 3px black;
+   -webkit-box-reflect: below 8px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(250, 250, 250, 0.1)));
 }
+
+.display {
+  
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 210px;
+  margin-top: 25px;
+  border: 1.5px solid black;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wheel-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-top: auto;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+
+
