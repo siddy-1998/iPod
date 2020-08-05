@@ -5,7 +5,7 @@ import Display from './Display.js'
 const Holder = (props) => {
   const { active , menuItems , songItems , songs ,songIndex , currentMenu, pause , 
           audio ,togglePlayPause , forwardSong , reverseSong , updatePointer ,
-          navigateForward ,navigateBackward } = props;
+          navigateForward ,navigateBackward , notification } = props;
 
     return(
         <div className="holder">
@@ -17,6 +17,9 @@ const Holder = (props) => {
                     currentMenu={currentMenu} 
                     pause={pause} 
                     audio={audio}  
+                    notification = {notification}
+                    
+
             />
             <Wheel  active={active}
                     currentMenu = {currentMenu}

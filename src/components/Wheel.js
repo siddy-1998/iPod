@@ -4,8 +4,8 @@ import ZingTouch from 'zingtouch';
 
 // Render wheel
 class Wheel extends React.Component {
-    constructor(props){
-        super(props);
+    constructor(){
+        super();
 
         this.angle =0;
     }

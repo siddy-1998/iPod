@@ -7,11 +7,11 @@ import SongNames from './SongNames';
 
 // Render wheel
 const Display = (props) =>{
-  const {active , menuItems , songItems , songs ,songIndex , currentMenu, pause , audio } = props;
+  const {active , menuItems , songItems , songs ,songIndex , currentMenu, pause , audio , notification} = props;
 
         return (
             <div className="display">
-                  <Navbar pause={pause} />
+                  <Navbar pause={pause} notification={notification} />
                   {currentMenu === -1 && <MainMenu menuItems={menuItems} active={active} songIndex={songIndex} songs={songs} />}
                   {(currentMenu === 0 || currentMenu === 8) && <PlaySong audio={audio} pause={pause} songIndex={songIndex} songs={songs} />}
                   {currentMenu === 1 && <SongMenu active={active} songItems={songItems} />}

@@ -120,24 +120,47 @@ body {
   height: 20px;
   min-height: 20px;
   background-color:black;
+  border-bottom: 1px solid rgb(66, 65, 65);
   
 }
 
+.play-pause-noty{
+  font-size:x-small;
+  color: white;
+  padding : 0px;
+  margin: 3px 2px;
+  margin-left:30px;  
+  width:5px;
+}
+
 .time {
-    margin: 0px 5px;
+    margin: 1px 5px;
     padding: 0px;
     color: white;
     font-size: smaller;
+    width: 10px;
+   font-family: "Comic Sans MS", cursive,sans-serif;
+
 }
 
 .battery{
   color: white;
   width: 22px;
   height: 22px;
-  margin-left: 183px;
+  margin-left: 170px;
   padding: 0px;
   margin-top: -2px;
   font-size: medium;
+}
+
+.song-noty{
+  background-color: white;
+  height: 15px;
+  width: 200px;
+  margin-left: 30px;
+  margin-top: 3px;
+  text-align: center;
+  
 }
 
 /* display */

@@ -28,7 +28,9 @@ class App extends React.Component {
       audio: new Audio(song1),
       navStack : [],  //->keeps track of visited pages therefore help in navigating 
       MAX_INDEX_OF_MENU : {"-1":3, 1:3 , 4:2},
-      CURRENT_MENU_MAPPER : { "-1": [0,1,2,3] , "1" : [4,5,6,7]}
+      CURRENT_MENU_MAPPER : { "-1": [0,1,2,3] , "1" : [4,5,6,7]},
+      notification : false,
+    
     }
   }
 
@@ -219,7 +221,7 @@ class App extends React.Component {
 
  render(){
    
-  const {active , menuItems , songItems , songs ,songIndex , currentMenu, pause , audio } = this.state;
+  const {active , menuItems , songItems , songs ,songIndex , currentMenu, pause , audio , notification , notificationText} = this.state;
 
      return(
        <div className="App">
@@ -237,6 +239,8 @@ class App extends React.Component {
                 updatePointer = {this.updatePointer}
                 navigateForward = {this.navigateForward}
                 navigateBackward = {this.navigateBackward}
+                notification = {notification}
+                notificationText = {notificationText}
         />      
        </div>
   );

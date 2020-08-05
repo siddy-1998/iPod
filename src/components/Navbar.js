@@ -30,10 +30,16 @@ class Navbar extends React.Component {
     
     render() {
         const { time } = this.state;
+        const { pause , notification } = this.props;
 
         return (
             <div className="navbar">
                 <div className="time">{time}</div>
+                { pause ? <div className="play-pause-noty"><i className="fas fa-pause"></i></div> : 
+                   <div className="play-pause-noty"><i className="fas fa-play"></i></div> 
+                }
+                             
+
                 <div className="battery">
                     <i className="fa fa-battery-three-quarters" aria-hidden="true"></i>
                 </div>
