@@ -35,7 +35,7 @@ class Navbar extends React.Component {
             <div className="navbar">
                 <div className="time">{time}</div>
                 <div className="battery">
-                    <i class="fa fa-battery-three-quarters" aria-hidden="true"></i>
+                    <i className="fa fa-battery-three-quarters" aria-hidden="true"></i>
                 </div>
   
 

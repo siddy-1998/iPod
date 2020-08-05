@@ -175,6 +175,8 @@ body {
   padding : 0px;
   margin-top:6px;
   color: #020a14;
+  font-family: "Comic Sans MS", cursive,sans-serif;
+  font-weight: bolder;
 }
 
 
@@ -222,6 +224,7 @@ li {
   justify-content: space-between;
   box-sizing: border-box;
   padding: 10px;
+  
 }
 
 .song-details img {
@@ -229,12 +232,7 @@ li {
   width: 100px;
   height: 100px;
   margin-top:10px;
-}
-
-.song-details div h1 {
-  margin-top: 16px;
-  font-size: 20px;
-  
+  margin-left: 5px;
 }
 
 .status {
@@ -243,6 +241,7 @@ li {
   align-items: center;
   justify-content: center;
   width: 100%;
+   font-family: "Comic Sans MS", cursive,sans-serif;
 }
 
 #progress {
@@ -261,8 +260,21 @@ li {
   text-align: center;
   color : rgb(43, 248, 43);  
   font-size: 30px;
-  margin-top:-5px;
+  margin-top:10px;
+  margin-left: -10px;
 }
+
+.song-name{
+  margin-top: 16px;
+  font-size: 20px;
+  margin-left : -20px;
+  font-weight: bold;
+   font-family: "Comic Sans MS", cursive,sans-serif;
+
+  
+}
+
+
 
 /* song-menu */
 .music {
@@ -273,4 +285,15 @@ li {
 
 .head{
   margin-left: 4px;
+  margin-top: 4px;
+  
+}
+
+.song-menu-ul{
+  margin-top: -10px;
+  height : 126px;
+}
+
+#song-names-head{
+  margin-top:10px;
 }

@@ -26,23 +26,29 @@ class PlaySong extends React.Component {
 
     render() {
         const { pause, songIndex, audio, songs } = this.props;
+
         var currentTimeRender = Math.floor(this.state.currentTime / 60) + ":" + Math.floor(this.state.currentTime % 60);
+        
         var durationRender = Math.floor(audio.duration / 60) + ":" + Math.floor(audio.duration % 60);
+        
         const percentageComplete = { width: (this.state.currentTime / audio.duration * 100) + "%" };
+        
         if(durationRender==="NaN:NaN"){
             durationRender="0:00";
         }
-        if(Math.floor(this.state.currentTime%60<10)){
+        
+        if(Math.floor(this.state.currentTime % 60 < 10)){
             currentTimeRender = Math.floor(this.state.currentTime / 60) + ":0" + Math.floor(this.state.currentTime % 60);
         }
+        
         return (
             <div className="now-playing-container">
                 <div className="song-details">
                     <img src={songs[songIndex].img} alt="songImg"></img>
                     <div>
-                        <h1 className="song-name">{songs[songIndex].name}</h1>
-                        {!pause && <div className="play-pause"><i class="fa fa-play-circle-o" aria-hidden="true"></i></div>}
-                        {pause && <div className="play-pause"><i class="fa fa-pause-circle-o" aria-hidden="true"></i></div>}
+                        <div className="song-name">{songs[songIndex].name}</div>
+                        {!pause && <div className="play-pause"><i className="fa fa-play-circle-o" aria-hidden="true"></i></div>}
+                        {pause && <div className="play-pause"><i className="fa fa-pause-circle-o" aria-hidden="true"></i></div>}
                     </div>
                 </div>
                 <div className="status">
