@@ -55,7 +55,7 @@ class Wheel extends React.Component {
         
 
     }
-
+       //for contolling the wheel and anticipating the direction of rotation
     wheelController = (e) => {
         const { updatePointer, currentMenu } = this.props;
 
