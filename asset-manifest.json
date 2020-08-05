@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/iPod/static/css/main.ddbe6263.chunk.css",
+    "main.js": "/iPod/static/js/main.a9979cb2.chunk.js",
+    "main.js.map": "/iPod/static/js/main.a9979cb2.chunk.js.map",
+    "runtime-main.js": "/iPod/static/js/runtime-main.eb9bf7dd.js",
+    "runtime-main.js.map": "/iPod/static/js/runtime-main.eb9bf7dd.js.map",
+    "static/js/2.65b37f0b.chunk.js": "/iPod/static/js/2.65b37f0b.chunk.js",
+    "static/js/2.65b37f0b.chunk.js.map": "/iPod/static/js/2.65b37f0b.chunk.js.map",
+    "index.html": "/iPod/index.html",
+    "precache-manifest.9dcbc3569ea1f37d8f8c836cde6445b9.js": "/iPod/precache-manifest.9dcbc3569ea1f37d8f8c836cde6445b9.js",
+    "service-worker.js": "/iPod/service-worker.js",
+    "static/css/main.ddbe6263.chunk.css.map": "/iPod/static/css/main.ddbe6263.chunk.css.map",
+    "static/js/2.65b37f0b.chunk.js.LICENSE.txt": "/iPod/static/js/2.65b37f0b.chunk.js.LICENSE.txt",
+    "static/media/Attention.mp3": "/iPod/static/media/Attention.a08b7f04.mp3",
+    "static/media/Bruises.mp3": "/iPod/static/media/Bruises.8453083e.mp3",
+    "static/media/Falling.mp3": "/iPod/static/media/Falling.9a23e82d.mp3",
+    "static/media/attentionCI.png": "/iPod/static/media/attentionCI.6bf32257.png",
+    "static/media/bruisesCI.jpg": "/iPod/static/media/bruisesCI.ac532520.jpg",
+    "static/media/fallingCI.jpg": "/iPod/static/media/fallingCI.43e315a7.jpg",
+    "static/media/game.jpg": "/iPod/static/media/game.6a16064f.jpg",
+    "static/media/music.png": "/iPod/static/media/music.03ca06ba.png",
+    "static/media/settings.jpg": "/iPod/static/media/settings.594ba131.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb9bf7dd.js",
+    "static/js/2.65b37f0b.chunk.js",
+    "static/css/main.ddbe6263.chunk.css",
+    "static/js/main.a9979cb2.chunk.js"
+  ]
+}
